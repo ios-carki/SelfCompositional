@@ -32,6 +32,7 @@ class MainViewController: BaseViewController {
             snapShot.appendItems(photo.results)
             self.dataSource.apply(snapShot)
         }
+        
     }
 }
 
